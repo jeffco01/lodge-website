@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>North Bend Lodge No. 140 • About</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="site-header">
+  <header>
+  <img src="square.png" alt="Square and Compasses" width="80">
+  <h1>North Bend Lodge No. 140</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <main class="container">
+    <section class="card">
+      <h2>About Our Lodge</h2>
+      <p>
+        Add a short history of your lodge, your mission in the community, and anything
+        you want visitors to know.
+      </p>
+      <p>
+        You can also add officer names/titles (as appropriate), a lodge timeline, photos, etc.
+      </p>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> North Bend Lodge No. 140</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>

@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>North Bend Lodge No. 140 • Contact</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+  <img src="square.png" alt="Square and Compasses" width="80">
+  <h1>North Bend Lodge No. 140</h1>
+
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="calendar.html">Calendar</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+</header>
+
+  <main class="container">
+    <section class="card">
+      <h2>Contact</h2>
+      <p><strong>Address:</strong> 2002 Union Ave., North Bend, Oregon 97459</p>
+      <p><strong>Email:</strong> northbendlodge140@gmail.com</p>
+      <p><strong>Phone:</strong> (555) 555-5555</p>
+
+      <hr class="divider" />
+
+      <h3>Send a message</h3>
+      <p class="note">
+        This form is “local only” right now (it won’t send an email until we hook it to a service later).
+      </p>
+
+      <form class="form" onsubmit="event.preventDefault(); alert('Thanks! This form is not wired up yet.');">
+        <label>
+          Name
+          <input type="text" required />
+        </label>
+
+        <label>
+          Email
+          <input type="email" required />
+        </label>
+
+        <label>
+          Message
+          <textarea rows="6" required></textarea>
+        </label>
+
+        <button type="submit">Send</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year"></span> North Bend Lodge No. 140.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
