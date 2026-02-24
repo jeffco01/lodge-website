@@ -159,6 +159,6 @@ main h2{
 .site-emblem{
   display: block;
   margin: 0 auto 18px;
-  max-width: 260px;
+  max-width: 100px;
   height: auto;
 }
