@@ -156,3 +156,9 @@ footer .container{
 main h2{
   text-align: center;
 }
+.site-emblem{
+  display: block;
+  margin: 0 auto 18px;
+  max-width: 260px;
+  height: auto;
+}
